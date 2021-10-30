@@ -1,0 +1,392 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*---------------------HEADER--------------------*/
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/milosRefugio/assets/baner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav img {
+    padding-top: 1%;
+    width: 70px;
+
+}
+
+nav {
+    padding: 2% 4%;
+}
+
+.nav-item2 a {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.nav-item2 a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #faaca8;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-item2 a:hover::after {
+    width: 80%;
+}
+
+.milo {
+    color: #faaca8;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 1%;
+    margin-right: 2%;
+}
+
+.text-box {
+    margin-top: 5%;
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.btn:hover {
+    border: 1px solid #faaca8;
+    background: #faaca8;
+    transition: 1s;
+}
+
+
+/*-----------MEDIA QUERY HEADER-------------*/
+
+@media screen and (max-width: 700px) {
+
+    .text-box h1 {
+        font-size: 14px;
+    }
+
+    .nav-item2 a {
+        text-align: center;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
+    .milo {
+        font-size: 12px;
+        margin-top: 5%;
+        margin-bottom: -4%;
+        margin-right: 5%;
+    }
+
+    nav img {
+        width: 50px;
+        position: absolute;
+        margin-left: 66%;
+    }
+}
+
+/*--------------- FIN --------------*/
+
+/*-------------- SECCION 1 ----------------*/
+
+.box-section {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.box-section h1 {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.box-section p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-col {
+    flex-basis: 31%;
+    background: #FCE4EC;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.box-col h3 {
+    font-size: 17px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.box-col:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2)
+}
+
+/*------------ MEDIA QUERY SECCION 1 -----------*/
+
+@media screen and (max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+/*--------------- FIN --------------*/
+
+/*----------------- SECCION 2 --------------*/
+
+.box-sectionDos {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.box-sectionDos h1 {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.box-colDos {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.box-colDos img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.capa {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.capa:hover {
+    background: linear-gradient(to bottom, #ddd6f3, #faaca8);
+}
+
+.capa h3 {
+    width: 100%;
+    font-weight: 400;
+    color: #fff;
+    font-size: 30px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    text-transform: capitalize;
+    opacity: 0;
+    transition: 1s;
+}
+
+.capa:hover h3 {
+    bottom: 49%;
+    opacity: 1;
+}
+
+/*------------------ FIN -------------------*/
+
+/*------------------- SECCION 3 -------------------*/
+
+.ayuda {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.ayuda h1 {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 400;
+
+}
+
+.ayuda-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.ayuda-col img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.ayuda-col p {
+    padding: 0;
+    text-align: left;
+}
+
+.ayuda-col h4 {
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 16px;
+    text-align: left;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+/*--------------------- FIN -------------------*/
+
+/*---------------------- SECCION 4 ---------------------*/
+
+.donacion {
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/milosRefugio/assets/donacion.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    border-radius: 10px;
+    padding: 100px 0;
+}
+
+.donacion h2 {
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+/*---------- MEDIA QUERY SECCION 4 -----------*/
+
+@media screen and (max-width: 700px) {
+    .donacion h2 {
+        font-size: 20px;
+    }
+}
+
+/*------------------- FIN ---------------------*/
+
+/*-------------------- QUE HACEMOS SECCION ----------------------*/
+
+
+/*------------------ FOOTER --------------------*/
+
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.footer .social .fa {
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 8px;
+}
+
+.footer .social .fa:hover {
+    color: #f44336;
+}
+
+.footer .list {
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 8px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer .list p {
+    display: inline-block;
+    padding: 15px 18px;
+    text-transform: capitalize;
+}
+
+.footer .copy-right {
+    font-weight: bold;
+    padding-bottom: 5%;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+
+/*-------------- MEDIA QUERY FOOTER ---------*/
+
+@media screen and (max-width: 700px) {
+
+    .footer .copy-right {
+        font-size: 12px;
+    }
+
+    .footer .list {
+        font-size: 14px;
+    }
+
+    .footer .social .fa {
+        font-size: 26px;
+    }
+}

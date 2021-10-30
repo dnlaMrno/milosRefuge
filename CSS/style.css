@@ -9,7 +9,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/milosRefugio/assets/baner.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/milosRefugio/assets/bannerPrincipal.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -91,7 +91,7 @@ nav {
 .btn:hover {
     border: 1px solid #faaca8;
     background: #faaca8;
-    transition: 1s;
+    transition: .5s;
 }
 
 
@@ -327,6 +327,124 @@ nav {
 
 /*-------------------- QUE HACEMOS SECCION ----------------------*/
 
+.sub-header {
+    min-height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/milosRefugio/assets/bannerPuppies.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.sub-header h1 {
+    text-align: center;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 10%;
+}
+
+.content-col {
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.content-col img {
+    margin-top: 25%;
+    border-radius: 10px;
+    height: 60%;
+    width: 100%;
+}
+
+.content-col h2 {
+    text-align: center;
+    padding-top: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.content-col p {
+    padding: 15px 0 25px;
+    text-align: justify;
+}
+
+.chance-btn {
+    margin-left: 25%;
+    border: 1px solid #faaca8;
+    background: transparent;
+    color: #faaca8;
+
+}
+
+.chance-btn:hover {
+    color: #fff;
+    transition: .5s;
+}
+
+/*--------------------- FIN ----------------------*/
+
+/*---------------- CONOCENOS SECCION --------------------*/
+
+.sub-header-section {
+    min-height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/milosRefugio/assets/bannerCat.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.box-sectionDos h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.boxContent {
+    margin-top: 5%;
+}
+
+.boxContentDos h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.boxContentDos p {
+    font-size: 16px;
+    padding: 15px 100px 10px;
+}
+
+.ayuda .content {
+    margin-top: -15%;
+    margin-bottom: -9%;
+}
+
+.sub-header-section h1 {
+    text-align: center;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+
+.ayuda-col .content {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: justify;
+}
+
+.ayuda .content h4 {
+    text-align: center;
+}
+
+.ayuda .content p {
+    text-align: justify;
+}
 
 /*------------------ FOOTER --------------------*/
 
@@ -346,7 +464,7 @@ nav {
 }
 
 .footer .social .fa:hover {
-    color: #f44336;
+    color: #faaca8;
 }
 
 .footer .list {

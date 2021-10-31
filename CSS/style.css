@@ -536,8 +536,8 @@ nav {
 }
 
 .header-contacto h1 {
-    text-align: center;
     margin-top: 100px;
+    text-align: center;
     text-transform: uppercase;
     color: #fff;
 }
@@ -545,13 +545,101 @@ nav {
 .ubicacion {
     width: 80%;
     margin: auto;
-    padding: 80px 0;
+    padding-top: 5%;
+    padding-bottom: 3%;
 }
 
 .ubicacion iframe {
     width: 100%;
 }
 
+.cantactanos {
+    width: 80%;
+    margin: auto;
+}
+
+.contactanos-col {
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.contactanos-col div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contactanos-col .fa {
+    font-size: 28px;
+    color: #faaca8;
+    margin: 10px;
+    margin-right: 20px;
+}
+
+.contactanos-col div p {
+    padding: 0;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.contactanos-col div h5 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.contactanos-col input textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 3px solid #faaca8;
+}
+
+.form {
+    max-inline-size: 550px;
+    margin: auto;
+}
+
+.form label {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: .5em;
+    padding-inline-start: .5em;
+}
+
+.form label span {
+    color: #DA1414;
+}
+
+.form input,
+.form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1rem;
+    padding: .8em;
+    border-radius: 10px;
+    border: 1px solid #777;
+}
+
+
+input::-webkit-input-placeholder {
+    color: #0F0A0A88;
+}
+
+.contact {
+    margin-block-end: 5em;
+}
+
+#trucazo {
+    opacity: 0;
+}
+
+.tag {
+    text-transform: uppercase;
+    text-align: center;
+}
 
 /*------------------ FOOTER --------------------*/
 

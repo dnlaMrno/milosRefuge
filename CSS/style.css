@@ -53,7 +53,7 @@ nav {
 }
 
 .text-box {
-    margin-top: 5%;
+    margin-top: 25%;
     width: 90%;
     color: #fff;
     position: absolute;
@@ -99,8 +99,13 @@ nav {
 
 @media screen and (max-width: 700px) {
 
+    .text-box {
+        margin-top: 50%;
+    }
+
     .text-box h1 {
-        font-size: 14px;
+        font-weight: 600;
+        font-size: 18px;
     }
 
     .nav-item2 a {
@@ -630,10 +635,6 @@ input::-webkit-input-placeholder {
 
 .contact {
     margin-block-end: 5em;
-}
-
-#trucazo {
-    opacity: 0;
 }
 
 .tag {

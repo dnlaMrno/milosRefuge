@@ -608,52 +608,53 @@ nav {
     text-transform: uppercase;
 }
 
-.contactanos-col input textarea {
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 17px;
-    outline: none;
-    border: 3px solid #faaca8;
+.contactanos-col h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    background: #faaca8;
+    text-align: center;
+    color: #fff;
+    border-bottom: 5px solid #777;
 }
 
 .form {
-    max-inline-size: 550px;
-    margin: auto;
+    padding: 25px 30px;
 }
 
-.form label {
+.form-box {
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+.form-box input {
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: .5em;
-    padding-inline-start: .5em;
-}
-
-.form label span {
-    color: #DA1414;
-}
-
-.form input,
-.form textarea {
-    box-sizing: border-box;
     width: 100%;
-    font-size: 1rem;
-    padding: .8em;
-    border-radius: 10px;
-    border: 1px solid #777;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 16px;
+    margin-top: 7px;
+    margin-left: 10px;
 }
 
-
-input::-webkit-input-placeholder {
-    color: #0F0A0A88;
+.form-box input:focus {
+    outline-color: #faaca8;
 }
 
-.contact {
-    margin-block-end: 5em;
+.form-box .error-text {
+    color: #CB4335;
+    visibility: hidden;
 }
 
-.tag {
-    text-transform: uppercase;
-    text-align: center;
+.form-box .form-error input {
+    border-bottom: 2px solid #CB4335;
+}
+
+.form-box .form-error .error-text {
+    visibility: visible;
+}
+
+.form-box .form-success input {
+    border-bottom: 2px solid #560fc7;
 }
 
 /*------------------ FOOTER --------------------*/

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/style.css">
-    <script src="/milosRefugio/JS/funciones.js"></script>
+    <script defer src="/milosRefugio/JS/funciones.js"></script>
     <title>milo's refuge</title>
 </head>
 <body>
@@ -83,22 +83,27 @@
 </div>
     </div>
     <div class="contactanos-col">
-
-    <div class="contact">
-          <form id="form" action="" class="form">
-            <h3 class="tag"><span>escribenos</span></h3>
-            <label for="name">Nombre Completo <span>*</span></label>
-            <input name="name" required type="text" id="name" placeholder="nombre">
-            <label for="email">Correo electrónico <span>*</span></label>
-            <input name="email" type="text" id="email" required placeholder="@gmail.com">
-            <label for="message">Mensaje</label>
-            <textarea id="message" name="message" cols="30" rows="10"></textarea>
-            <button type="submit" class="btn chance-btn">enviar consulta</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
+      <h2>nuevo usuario</h2>
+<div>
+  <form id='user-form' class='form' >
+<div class="form-box">
+  <label for="nickName">name</label>
+  <input type="text" name='nickName' id='nickName' placeholder="nombre">
+  <small class="error-text">introduce un nombre</small>
+</div>
+<div class="form-box">
+  <label for="email">email</label>
+  <input type="email" name='email' id='email' placeholder="@gmail.com">
+  <small class="error-text">introduce un email valido</small>
+</div>
+<div class="form-box">
+  <label for="passarword">password</label>
+  <input type="password" name='passarword' id='name' placeholder="clave">
+  <small class="error-text">introduce una contraseña minimo 6 caracteres</small>
+</div>
+<button type="submit" id="submit-btn" class="btn chance-btn">enviar</button>
+  </form>
+</div>
 </div>
 </section>
 

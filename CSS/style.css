@@ -18,7 +18,6 @@
 nav img {
     padding-top: 1%;
     width: 70px;
-
 }
 
 nav {
@@ -72,7 +71,6 @@ nav {
     margin: 10px 0 40px;
     font-size: 14px;
     color: #fff;
-    text-transform: capitalize;
 }
 
 .btn {
@@ -85,7 +83,7 @@ nav {
     background: transparent;
     position: relative;
     cursor: pointer;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .btn:hover {
@@ -128,6 +126,25 @@ nav {
     }
 }
 
+@media screen and (max-width: 330px) {
+
+    .text-box {
+        margin-top: 85%;
+    }
+
+    .text-box h1 {
+        font-size: 20px;
+    }
+
+    .text-box p {
+        font-size: 12px;
+    }
+
+    nav img {
+        margin-top: 4%;
+    }
+}
+
 /*--------------- FIN --------------*/
 
 /*-------------- SECCION 1 ----------------*/
@@ -150,7 +167,6 @@ nav {
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
-    text-transform: capitalize;
 
 }
 
@@ -177,10 +193,6 @@ nav {
     font-weight: 600;
     margin: 10px 0;
 }
-
-
-
-
 
 .box-col:hover {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2)
@@ -213,7 +225,6 @@ nav {
 
 .box-sectionDos p {
     font-size: 16px;
-    text-transform: capitalize;
 }
 
 .box-colDos {
@@ -282,7 +293,6 @@ nav {
 
 .ayuda p {
     font-size: 16px;
-    text-transform: capitalize;
 }
 
 .ayuda-col {
@@ -467,6 +477,19 @@ nav {
     text-align: justify;
 }
 
+@media screen and (max-width: 330px) {
+
+    .boxContentDos p {
+        font-size: 12px;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .sub-header-section h1 {
+        font-size: 23px;
+    }
+}
+
 /*---------------- FIN -------------------*/
 
 /*----------------- AYUDAMOS SECCION ----------------*/
@@ -492,7 +515,6 @@ nav {
 }
 
 .ayudantia p {
-    text-transform: capitalize;
     text-align: justify;
 }
 
@@ -597,7 +619,6 @@ nav {
 
 .contactanos-col div p {
     padding: 0;
-    text-transform: capitalize;
     font-size: 16px;
 }
 
